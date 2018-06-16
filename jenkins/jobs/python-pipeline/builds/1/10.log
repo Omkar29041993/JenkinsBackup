@@ -1,0 +1,4 @@
+[python-pipeline] Running shell script
++ docker inspect -f . python:2-alpine
+
+Error: No such object: python:2-alpine

@@ -1,0 +1,37 @@
+[maven-java] Running shell script
++ docker pull maven:3-alpine
+3-alpine: Pulling from library/maven
+88286f41530e: Pulling fs layer
+009f6e766a1b: Pulling fs layer
+86ed68184682: Pulling fs layer
+f9cdc72bb970: Pulling fs layer
+7e4415124188: Pulling fs layer
+f6ba1c32fdb3: Pulling fs layer
+8f690e3687b2: Pulling fs layer
+f9cdc72bb970: Waiting
+7e4415124188: Waiting
+f6ba1c32fdb3: Waiting
+8f690e3687b2: Waiting
+009f6e766a1b: Verifying Checksum
+009f6e766a1b: Download complete
+88286f41530e: Verifying Checksum
+88286f41530e: Download complete
+f9cdc72bb970: Verifying Checksum
+f9cdc72bb970: Download complete
+88286f41530e: Pull complete
+009f6e766a1b: Pull complete
+f6ba1c32fdb3: Verifying Checksum
+f6ba1c32fdb3: Download complete
+8f690e3687b2: Verifying Checksum
+8f690e3687b2: Download complete
+86ed68184682: Verifying Checksum
+86ed68184682: Download complete
+7e4415124188: Verifying Checksum
+7e4415124188: Download complete
+86ed68184682: Pull complete
+f9cdc72bb970: Pull complete
+7e4415124188: Pull complete
+f6ba1c32fdb3: Pull complete
+8f690e3687b2: Pull complete
+Digest: sha256:400fb45cfcedfc492ff91319ea0a58f570172f8cf65f40b9b14931f44a6c1417
+Status: Downloaded newer image for maven:3-alpine

@@ -1,0 +1,3 @@
+Jenkins does not seem to be running inside a container
+$ docker run -t -d -u 112:116 -v /root/.m2:/root/.m2 -w /var/lib/jenkins/workspace/maven-java -v /var/lib/jenkins/workspace/maven-java:/var/lib/jenkins/workspace/maven-java:rw,z -v /var/lib/jenkins/workspace/maven-java@tmp:/var/lib/jenkins/workspace/maven-java@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3-alpine cat
+$ docker top 9cd110a87cae917ee478937f0576421cb4913f461d28a9686174dee162a9310a -eo pid,comm

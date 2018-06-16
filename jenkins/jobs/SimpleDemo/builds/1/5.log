@@ -1,0 +1,3 @@
+[SimpleDemo] Running shell script
++ docker inspect -f . maven:3.3.3
+/var/lib/jenkins/workspace/SimpleDemo@tmp/durable-940bfc11/script.sh: 2: /var/lib/jenkins/workspace/SimpleDemo@tmp/durable-940bfc11/script.sh: docker: not found

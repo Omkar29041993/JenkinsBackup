@@ -1,0 +1,3 @@
+[SimpleDemo] Running shell script
++ docker pull maven:3.3.3
+/var/lib/jenkins/workspace/SimpleDemo@tmp/durable-953ddc49/script.sh: 2: /var/lib/jenkins/workspace/SimpleDemo@tmp/durable-953ddc49/script.sh: docker: not found

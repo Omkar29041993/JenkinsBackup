@@ -1,0 +1,111 @@
+Started by user [8mha:////4EDQYKYN7zIjnJGGZ4i4Im0C0Zj/XxgSwZ4tBg4waUFfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Example Build)
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4MTARwIANenQVZHwjq74h/9Fre6SBePbixtR7bHHzNf7AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/SimpleDemo
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[SimpleDemo] Running shell script
++ docker inspect -f . maven:3-alpine
+.
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins does not seem to be running inside a container
+$ docker run -t -d -u 112:116 -w /var/lib/jenkins/workspace/SimpleDemo -v /var/lib/jenkins/workspace/SimpleDemo:/var/lib/jenkins/workspace/SimpleDemo:rw,z -v /var/lib/jenkins/workspace/SimpleDemo@tmp:/var/lib/jenkins/workspace/SimpleDemo@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3-alpine cat
+$ docker top 2bedcf2f0cee114644f7319fa903de3a6479cc7875a24a281cd91ede77666b23 -eo pid,comm
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Hello, Maven
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[SimpleDemo] Running shell script
++ mvn --version
+Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T19:39:06Z)
+Maven home: /usr/share/maven
+Java version: 1.8.0_131, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-1.8-openjdk/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-1060-aws", arch: "amd64", family: "unix"
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 2bedcf2f0cee114644f7319fa903de3a6479cc7875a24a281cd91ede77666b23
+$ docker rm -f 2bedcf2f0cee114644f7319fa903de3a6479cc7875a24a281cd91ede77666b23
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Example Test)
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4MTARwIANenQVZHwjq74h/9Fre6SBePbixtR7bHHzNf7AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/SimpleDemo
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[SimpleDemo] Running shell script
++ docker inspect -f . openjdk:8-jre
+
+Error: No such object: openjdk:8-jre
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[SimpleDemo] Running shell script
++ docker pull openjdk:8-jre
+8-jre: Pulling from library/openjdk
+cc1a78bfd46b: Pulling fs layer
+d2c05365ee2a: Pulling fs layer
+231cb0e216d3: Pulling fs layer
+e8912f9d0ce2: Pulling fs layer
+9bafe362f99b: Pulling fs layer
+28b0652112a6: Pulling fs layer
+da23e1e20eae: Pulling fs layer
+9d809d99b239: Pulling fs layer
+e8912f9d0ce2: Waiting
+9bafe362f99b: Waiting
+28b0652112a6: Waiting
+da23e1e20eae: Waiting
+9d809d99b239: Waiting
+231cb0e216d3: Verifying Checksum
+231cb0e216d3: Download complete
+d2c05365ee2a: Verifying Checksum
+d2c05365ee2a: Download complete
+e8912f9d0ce2: Verifying Checksum
+e8912f9d0ce2: Download complete
+9bafe362f99b: Verifying Checksum
+9bafe362f99b: Download complete
+28b0652112a6: Verifying Checksum
+28b0652112a6: Download complete
+cc1a78bfd46b: Verifying Checksum
+cc1a78bfd46b: Download complete
+9d809d99b239: Verifying Checksum
+9d809d99b239: Download complete
+cc1a78bfd46b: Pull complete
+d2c05365ee2a: Pull complete
+231cb0e216d3: Pull complete
+e8912f9d0ce2: Pull complete
+9bafe362f99b: Pull complete
+28b0652112a6: Pull complete
+da23e1e20eae: Verifying Checksum
+da23e1e20eae: Download complete
+da23e1e20eae: Pull complete
+9d809d99b239: Pull complete
+Digest: sha256:7c66302bcbd5d6f189aa75bf011323a356b8798ede699b19111b2f8ed81f3048
+Status: Downloaded newer image for openjdk:8-jre
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins does not seem to be running inside a container
+$ docker run -t -d -u 112:116 -w /var/lib/jenkins/workspace/SimpleDemo -v /var/lib/jenkins/workspace/SimpleDemo:/var/lib/jenkins/workspace/SimpleDemo:rw,z -v /var/lib/jenkins/workspace/SimpleDemo@tmp:/var/lib/jenkins/workspace/SimpleDemo@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** openjdk:8-jre cat
+$ docker top 8fff0e8632ebba0307e8e43a187dc0586761c9e757c9fb2b85ac1528c993c36c -eo pid,comm
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Hello, JDK
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[SimpleDemo] Running shell script
++ java -version
+openjdk version "1.8.0_171"
+OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-1~deb9u1-b11)
+OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 8fff0e8632ebba0307e8e43a187dc0586761c9e757c9fb2b85ac1528c993c36c
+$ docker rm -f 8fff0e8632ebba0307e8e43a187dc0586761c9e757c9fb2b85ac1528c993c36c
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

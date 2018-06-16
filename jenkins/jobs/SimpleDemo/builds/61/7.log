@@ -1,0 +1,3 @@
+[SimpleDemo] Running shell script
++ ruby --version
+/home/ubuntu/workspace/SimpleDemo@tmp/durable-eaadb5f2/script.sh: 2: /home/ubuntu/workspace/SimpleDemo@tmp/durable-eaadb5f2/script.sh: ruby: not found

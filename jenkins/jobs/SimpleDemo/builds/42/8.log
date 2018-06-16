@@ -1,0 +1,3 @@
+Jenkins does not seem to be running inside a container
+$ docker run -t -d -u 112:116 -w /var/lib/jenkins/workspace/SimpleDemo -v /var/lib/jenkins/workspace/SimpleDemo:/var/lib/jenkins/workspace/SimpleDemo:rw,z -v /var/lib/jenkins/workspace/SimpleDemo@tmp:/var/lib/jenkins/workspace/SimpleDemo@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3-alpine cat
+$ docker top 9569b7cabc3c637badf703cec5decb3114d9f6ed90ad0b6e3967d2840eca7f36 -eo pid,comm

@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Omkar29041993/Zycus1.git
+ > git init /var/lib/jenkins/workspace/Checkout_multiple_branch/Zycus1 # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/Zycus1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Omkar29041993/Zycus1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Omkar29041993/Zycus1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Omkar29041993/Zycus1.git # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/Zycus1.git
+ > git fetch --tags --progress https://github.com/Omkar29041993/Zycus1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 31f825f2d6055f207cb579ec764bb2f45ae1d428 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 31f825f2d6055f207cb579ec764bb2f45ae1d428
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 31f825f2d6055f207cb579ec764bb2f45ae1d428
+Commit message: "Demo file"
+ > git rev-list --no-walk 8438b3339287d9d4bb8fff719ee9b23a609f3b29 # timeout=10

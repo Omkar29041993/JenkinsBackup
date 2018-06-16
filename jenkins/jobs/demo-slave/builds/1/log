@@ -1,0 +1,7 @@
+Started by user [8mha:////4EDQYKYN7zIjnJGGZ4i4Im0C0Zj/XxgSwZ4tBg4waUFfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4Crr7N7xI3ndJKRpKgsEyYZKxCO5patQ7sMGTvJqz5xbAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave in workspace /home/ubuntu/workspace/demo-slave
+[demo-slave] $ /bin/sh -xe /tmp/jenkins3177706699213150974.sh
++ echo Hello Omkar
+Hello Omkar
++ mkdir omkar
+Finished: SUCCESS

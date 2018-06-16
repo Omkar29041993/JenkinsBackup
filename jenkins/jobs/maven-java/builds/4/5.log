@@ -1,0 +1,4 @@
+[maven-java] Running shell script
++ docker inspect -f . maven:3-alpine
+
+Error: No such object: maven:3-alpine

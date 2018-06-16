@@ -1,0 +1,11 @@
+[SimpleDemo] Running shell script
++ sudo apt-get update
+Hit:1 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:4 http://ppa.launchpad.net/ansible/ansible/ubuntu xenial InRelease
+Hit:5 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Ign:6 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:7 https://pkg.jenkins.io/debian-stable binary/ Release
+Hit:8 https://download.docker.com/linux/ubuntu xenial InRelease
+Reading package lists...

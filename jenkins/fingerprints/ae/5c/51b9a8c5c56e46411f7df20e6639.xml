@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-07 06:29:12.427 UTC</timestamp>
+  <original>
+    <name>python-pipeline</name>
+    <number>1</number>
+  </original>
+  <md5sum>ae5c51b9a8c5c56e46411f7df20e6639</md5sum>
+  <fileName>Docker image sha256:ae5c51b9a8c5c56e46411f7df20e663990dc06e3941131bb9fa23db97309b6f3</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528352952430</timestamp>
+      <imageId>sha256:ae5c51b9a8c5c56e46411f7df20e663990dc06e3941131bb9fa23db97309b6f3</imageId>
+      <usages>
+        <entry>
+          <string>python-pipeline</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>38fefe5d0dd6</host>
+          <containerId>38fefe5d0dd69213a67ee4bc709515249172e9f497219214691bf60e5fa77d3c</containerId>
+          <containerName>/pedantic_wozniak</containerName>
+          <created>1528352952000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

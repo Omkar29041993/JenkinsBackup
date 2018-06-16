@@ -1,0 +1,22 @@
+[python-pipeline] Running shell script
++ docker pull python:2-alpine
+2-alpine: Pulling from library/python
+ff3a5c916c92: Pulling fs layer
+5556c6f99b85: Pulling fs layer
+93fbc81365bc: Pulling fs layer
+8780cd897032: Pulling fs layer
+8780cd897032: Waiting
+5556c6f99b85: Verifying Checksum
+5556c6f99b85: Download complete
+ff3a5c916c92: Verifying Checksum
+ff3a5c916c92: Download complete
+ff3a5c916c92: Pull complete
+8780cd897032: Verifying Checksum
+8780cd897032: Download complete
+5556c6f99b85: Pull complete
+93fbc81365bc: Verifying Checksum
+93fbc81365bc: Download complete
+93fbc81365bc: Pull complete
+8780cd897032: Pull complete
+Digest: sha256:f9a9e2408e879d683676788d292af28c16f83b7fcf67473a054d8f74dab4489e
+Status: Downloaded newer image for python:2-alpine

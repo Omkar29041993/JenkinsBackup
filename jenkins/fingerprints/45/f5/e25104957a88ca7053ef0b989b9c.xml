@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-07 14:47:38.159 UTC</timestamp>
+  <original>
+    <name>SimpleDemo</name>
+    <number>41</number>
+  </original>
+  <md5sum>45f5e25104957a88ca7053ef0b989b9c</md5sum>
+  <fileName>Docker image sha256:45f5e25104957a88ca7053ef0b989b9cc304d41b8287f39c50e195cf5767c2ec</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528382858162</timestamp>
+      <imageId>sha256:45f5e25104957a88ca7053ef0b989b9cc304d41b8287f39c50e195cf5767c2ec</imageId>
+      <usages>
+        <entry>
+          <string>SimpleDemo</string>
+          <ranges>41-42</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>8fff0e8632eb</host>
+          <containerId>8fff0e8632ebba0307e8e43a187dc0586761c9e757c9fb2b85ac1528c993c36c</containerId>
+          <containerName>/lucid_mccarthy</containerName>
+          <created>1528382857000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>d70f8bd30b12</host>
+          <containerId>d70f8bd30b120d37d1a2c0e2f655fc3687ea664de567641fc939889fa4640053</containerId>
+          <containerName>/clever_banach</containerName>
+          <created>1528383058000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

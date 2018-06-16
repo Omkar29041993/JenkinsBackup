@@ -1,0 +1,3 @@
+Jenkins does not seem to be running inside a container
+$ docker run -t -d -u 112:116 -p 3000:3000 -w /var/lib/jenkins/workspace/nodejs-pipeline -v /var/lib/jenkins/workspace/nodejs-pipeline:/var/lib/jenkins/workspace/nodejs-pipeline:rw,z -v /var/lib/jenkins/workspace/nodejs-pipeline@tmp:/var/lib/jenkins/workspace/nodejs-pipeline@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** node:6-alpine cat
+$ docker top 4bb52b3b941c4e6f31a0099e8c649c6e891b046d4e3dd570d002528ecd3c8808 -eo pid,comm

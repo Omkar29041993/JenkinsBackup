@@ -1,0 +1,55 @@
+Started by user [8mha:////4EDQYKYN7zIjnJGGZ4i4Im0C0Zj/XxgSwZ4tBg4waUFfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4MTARwIANenQVZHwjq74h/9Fre6SBePbixtR7bHHzNf7AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/SimpleDemo
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[SimpleDemo] Running shell script
++ printenv
+DISABLE_AUTH=true
+JENKINS_HOME=/var/lib/jenkins
+DB_ENGINE=sqlite
+MAIL=/var/mail/jenkins
+USER=jenkins
+RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/SimpleDemo/26/display/redirect?page=changes
+NODE_LABELS=master
+SHLVL=1
+HOME=/var/lib/jenkins
+HUDSON_COOKIE=aabc76e8-5b1e-47cd-b00b-59265ffc1932
+JENKINS_SERVER_COOKIE=durable-8a30ec20a3078762fd14d19b8441272e
+WORKSPACE=/var/lib/jenkins/workspace/SimpleDemo
+LOGNAME=jenkins
+NODE_NAME=master
+_=/usr/bin/daemon
+STAGE_NAME=Build
+EXECUTOR_NUMBER=0
+XDG_SESSION_ID=c1
+BUILD_DISPLAY_NAME=#26
+HUDSON_HOME=/var/lib/jenkins
+JOB_BASE_NAME=SimpleDemo
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+BUILD_ID=26
+XDG_RUNTIME_DIR=/run/user/112
+BUILD_TAG=jenkins-SimpleDemo-26
+LANG=en_US.UTF-8
+BUILD_NUMBER=26
+JENKINS_NODE_COOKIE=90337950-65b5-4ff9-86ec-a28bcbf91729
+SHELL=/bin/bash
+RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/SimpleDemo/26/display/redirect
+HUDSON_SERVER_COOKIE=2c789ac435ded8f3
+JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/SimpleDemo/display/redirect
+JOB_NAME=SimpleDemo
+PWD=/var/lib/jenkins/workspace/SimpleDemo
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4Bl82M/vF1SbjTrRfeylJqYKdbTEM0FuS18nPexI+3YMAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

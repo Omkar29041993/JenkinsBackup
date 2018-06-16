@@ -1,0 +1,4 @@
+[python-pipeline] Running shell script
++ docker inspect -f . cdrx/pyinstaller-linux:python2
+
+Error: No such object: cdrx/pyinstaller-linux:python2

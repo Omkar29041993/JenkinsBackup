@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-07 06:29:34.170 UTC</timestamp>
+  <original>
+    <name>python-pipeline</name>
+    <number>1</number>
+  </original>
+  <md5sum>60b509e2d71414ad8760aa503380bd16</md5sum>
+  <fileName>Docker image sha256:60b509e2d71414ad8760aa503380bd165ec22242d0bd83342938fd1ea562c116</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528352974174</timestamp>
+      <imageId>sha256:60b509e2d71414ad8760aa503380bd165ec22242d0bd83342938fd1ea562c116</imageId>
+      <usages>
+        <entry>
+          <string>python-pipeline</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2ca2008c8ec1</host>
+          <containerId>2ca2008c8ec18b5c62f93b77780a6339f51c41035276082c11db5e174594432c</containerId>
+          <containerName>/determined_agnesi</containerName>
+          <created>1528352973000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

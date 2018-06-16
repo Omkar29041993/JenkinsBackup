@@ -1,0 +1,3 @@
+[SimpleDemo] Running shell script
++ dll
+/var/lib/jenkins/workspace/SimpleDemo@tmp/durable-5e4a94e6/script.sh: 2: /var/lib/jenkins/workspace/SimpleDemo@tmp/durable-5e4a94e6/script.sh: dll: not found

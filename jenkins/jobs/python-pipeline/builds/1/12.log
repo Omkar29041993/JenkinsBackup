@@ -1,0 +1,3 @@
+Jenkins does not seem to be running inside a container
+$ docker run -t -d -u 112:116 -w /var/lib/jenkins/workspace/python-pipeline -v /var/lib/jenkins/workspace/python-pipeline:/var/lib/jenkins/workspace/python-pipeline:rw,z -v /var/lib/jenkins/workspace/python-pipeline@tmp:/var/lib/jenkins/workspace/python-pipeline@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** python:2-alpine cat
+$ docker top ae47d9bd2ff86d3702757a521a65632999110d7426fa607ed97a587db9dd5a26 -eo pid,comm

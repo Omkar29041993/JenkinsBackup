@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.21">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.53">
+    <script>node()
+{
+    stage &quot;Checkout branch Zycus1&quot;
+        dir(&apos;Zycus1&apos;) {
+            git url: &apos;https://github.com/Omkar29041993/Zycus1.git&apos;
+        }
+    stage &quot;Checkout branch Zycus2&quot;
+        dir(&apos;Zycus2&apos;) {
+            git url: &apos;https://github.com/Omkar29041993/Zycus2.git&apos;
+        }
+        
+
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

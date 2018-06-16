@@ -1,0 +1,53 @@
+[python-pipeline] Running shell script
++ docker pull qnib/pytest
+Using default tag: latest
+latest: Pulling from qnib/pytest
+f2b6b4884fc8: Pulling fs layer
+4fb899b4df21: Pulling fs layer
+74eaa8be7221: Pulling fs layer
+2d6e98fe4040: Pulling fs layer
+414666f7554d: Pulling fs layer
+bb0bcc8d7f6a: Pulling fs layer
+48c658404050: Pulling fs layer
+017da2081734: Pulling fs layer
+db789acdfe25: Pulling fs layer
+6f32167f8494: Pulling fs layer
+2d6e98fe4040: Waiting
+414666f7554d: Waiting
+bb0bcc8d7f6a: Waiting
+48c658404050: Waiting
+017da2081734: Waiting
+db789acdfe25: Waiting
+6f32167f8494: Waiting
+4fb899b4df21: Verifying Checksum
+4fb899b4df21: Download complete
+74eaa8be7221: Verifying Checksum
+74eaa8be7221: Download complete
+f2b6b4884fc8: Verifying Checksum
+f2b6b4884fc8: Download complete
+414666f7554d: Verifying Checksum
+414666f7554d: Download complete
+f2b6b4884fc8: Pull complete
+48c658404050: Verifying Checksum
+48c658404050: Download complete
+bb0bcc8d7f6a: Verifying Checksum
+bb0bcc8d7f6a: Download complete
+4fb899b4df21: Pull complete
+2d6e98fe4040: Verifying Checksum
+2d6e98fe4040: Download complete
+017da2081734: Verifying Checksum
+017da2081734: Download complete
+74eaa8be7221: Pull complete
+db789acdfe25: Verifying Checksum
+db789acdfe25: Download complete
+6f32167f8494: Verifying Checksum
+6f32167f8494: Download complete
+2d6e98fe4040: Pull complete
+414666f7554d: Pull complete
+bb0bcc8d7f6a: Pull complete
+48c658404050: Pull complete
+017da2081734: Pull complete
+db789acdfe25: Pull complete
+6f32167f8494: Pull complete
+Digest: sha256:02a659c938f1d1a89dbdcc2593dde1f9ffeb3ee5edc4379e93c6d84b77ad5ad6
+Status: Downloaded newer image for qnib/pytest:latest

@@ -1,0 +1,47 @@
+[python-pipeline] Running shell script
++ docker pull cdrx/pyinstaller-linux:python2
+python2: Pulling from cdrx/pyinstaller-linux
+c2c80a08aa8c: Pulling fs layer
+6ace04d7a4a2: Pulling fs layer
+f03114bcfb25: Pulling fs layer
+99df43987812: Pulling fs layer
+9c646cd4d155: Pulling fs layer
+2cade8d1b360: Pulling fs layer
+e87e259096ed: Pulling fs layer
+546510f4e501: Pulling fs layer
+f546a5b71048: Pulling fs layer
+99df43987812: Waiting
+9c646cd4d155: Waiting
+2cade8d1b360: Waiting
+e87e259096ed: Waiting
+546510f4e501: Waiting
+f546a5b71048: Waiting
+f03114bcfb25: Verifying Checksum
+f03114bcfb25: Download complete
+6ace04d7a4a2: Verifying Checksum
+6ace04d7a4a2: Download complete
+99df43987812: Verifying Checksum
+99df43987812: Download complete
+9c646cd4d155: Verifying Checksum
+9c646cd4d155: Download complete
+e87e259096ed: Verifying Checksum
+e87e259096ed: Download complete
+546510f4e501: Verifying Checksum
+546510f4e501: Download complete
+f546a5b71048: Verifying Checksum
+f546a5b71048: Download complete
+2cade8d1b360: Verifying Checksum
+2cade8d1b360: Download complete
+c2c80a08aa8c: Verifying Checksum
+c2c80a08aa8c: Download complete
+c2c80a08aa8c: Pull complete
+6ace04d7a4a2: Pull complete
+f03114bcfb25: Pull complete
+99df43987812: Pull complete
+9c646cd4d155: Pull complete
+2cade8d1b360: Pull complete
+e87e259096ed: Pull complete
+546510f4e501: Pull complete
+f546a5b71048: Pull complete
+Digest: sha256:ad72815490087dec09cdaae0f94b91382d456fd634a5ce9fce058db43322ccea
+Status: Downloaded newer image for cdrx/pyinstaller-linux:python2

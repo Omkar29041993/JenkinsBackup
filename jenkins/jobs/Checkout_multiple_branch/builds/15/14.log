@@ -1,0 +1,16 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Omkar29041993/Zycus2.git # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/Zycus2.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Omkar29041993/Zycus2.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2cd9c9390f28db67f0b511d0545043bb1be6e209 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2cd9c9390f28db67f0b511d0545043bb1be6e209
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 2cd9c9390f28db67f0b511d0545043bb1be6e209
+Commit message: "Demo file"
+ > git rev-list --no-walk 2cd9c9390f28db67f0b511d0545043bb1be6e209 # timeout=10

@@ -1,0 +1,4 @@
+[SimpleDemo] Running shell script
++ echo Fail!
+Fail!
++ exit 1

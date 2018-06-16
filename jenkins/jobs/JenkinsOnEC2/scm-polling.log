@@ -1,0 +1,9 @@
+Started on Jun 16, 2018 8:36:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision a7015975dfdde7ae82b2a6fafb5a88b1e0dab8e5 (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Omkar29041993/JenkinsOnEC2MavenProject.git # timeout=10
+Found 1 remote heads on https://github.com/Omkar29041993/JenkinsOnEC2MavenProject.git
+[poll] Latest remote head revision on refs/heads/master is: a7015975dfdde7ae82b2a6fafb5a88b1e0dab8e5 - already built by 3
+Done. Took 0.96 sec
+No changes

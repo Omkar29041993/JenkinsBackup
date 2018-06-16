@@ -1,0 +1,42 @@
+[SimpleDemo] Running shell script
++ docker pull openjdk:8-jre
+8-jre: Pulling from library/openjdk
+cc1a78bfd46b: Pulling fs layer
+d2c05365ee2a: Pulling fs layer
+231cb0e216d3: Pulling fs layer
+e8912f9d0ce2: Pulling fs layer
+9bafe362f99b: Pulling fs layer
+28b0652112a6: Pulling fs layer
+da23e1e20eae: Pulling fs layer
+9d809d99b239: Pulling fs layer
+e8912f9d0ce2: Waiting
+9bafe362f99b: Waiting
+28b0652112a6: Waiting
+da23e1e20eae: Waiting
+9d809d99b239: Waiting
+231cb0e216d3: Verifying Checksum
+231cb0e216d3: Download complete
+d2c05365ee2a: Verifying Checksum
+d2c05365ee2a: Download complete
+e8912f9d0ce2: Verifying Checksum
+e8912f9d0ce2: Download complete
+9bafe362f99b: Verifying Checksum
+9bafe362f99b: Download complete
+28b0652112a6: Verifying Checksum
+28b0652112a6: Download complete
+cc1a78bfd46b: Verifying Checksum
+cc1a78bfd46b: Download complete
+9d809d99b239: Verifying Checksum
+9d809d99b239: Download complete
+cc1a78bfd46b: Pull complete
+d2c05365ee2a: Pull complete
+231cb0e216d3: Pull complete
+e8912f9d0ce2: Pull complete
+9bafe362f99b: Pull complete
+28b0652112a6: Pull complete
+da23e1e20eae: Verifying Checksum
+da23e1e20eae: Download complete
+da23e1e20eae: Pull complete
+9d809d99b239: Pull complete
+Digest: sha256:7c66302bcbd5d6f189aa75bf011323a356b8798ede699b19111b2f8ed81f3048
+Status: Downloaded newer image for openjdk:8-jre

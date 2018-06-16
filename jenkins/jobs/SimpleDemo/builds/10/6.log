@@ -1,0 +1,32 @@
+[SimpleDemo@2] Running shell script
++ docker pull node:6.3
+6.3: Pulling from library/node
+357ea8c3d80b: Pulling fs layer
+52befadefd24: Pulling fs layer
+3c0732d5313c: Pulling fs layer
+ceb711c7e301: Pulling fs layer
+868b1d0e2aad: Pulling fs layer
+646e6da4bf07: Pulling fs layer
+646e6da4bf07: Waiting
+ceb711c7e301: Waiting
+868b1d0e2aad: Waiting
+52befadefd24: Verifying Checksum
+52befadefd24: Download complete
+357ea8c3d80b: Verifying Checksum
+357ea8c3d80b: Download complete
+3c0732d5313c: Verifying Checksum
+3c0732d5313c: Download complete
+868b1d0e2aad: Verifying Checksum
+868b1d0e2aad: Download complete
+357ea8c3d80b: Pull complete
+646e6da4bf07: Verifying Checksum
+646e6da4bf07: Download complete
+52befadefd24: Pull complete
+3c0732d5313c: Pull complete
+ceb711c7e301: Verifying Checksum
+ceb711c7e301: Download complete
+ceb711c7e301: Pull complete
+868b1d0e2aad: Pull complete
+646e6da4bf07: Pull complete
+Digest: sha256:cde2bd38dbfec5e6e2981ec7a05056c734148fcd4bff088e143f11b2bafe3b64
+Status: Image is up to date for node:6.3

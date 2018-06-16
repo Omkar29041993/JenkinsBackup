@@ -1,0 +1,4 @@
+[python-pipeline] Running shell script
++ docker inspect -f . qnib/pytest
+
+Error: No such object: qnib/pytest

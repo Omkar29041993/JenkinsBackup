@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-05-27 07:13:44.728 UTC</timestamp>
+  <md5sum>8d0a7c61edd3c92d52b00e3155ef9806</md5sum>
+  <fileName>Credential id=2c6cc3a1-3fdf-4c9d-a9e5-c08bccbfd5d3 name=Omkar29041993/******</fileName>
+  <usages>
+    <entry>
+      <string>Maven_Package</string>
+      <ranges>12-14</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

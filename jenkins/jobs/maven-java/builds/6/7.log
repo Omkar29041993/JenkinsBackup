@@ -1,0 +1,18 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Omkar29041993/simple-java-maven-app.git
+ > git init /var/lib/jenkins/workspace/maven-java # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/simple-java-maven-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Omkar29041993/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Omkar29041993/simple-java-maven-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Omkar29041993/simple-java-maven-app.git # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/simple-java-maven-app.git
+ > git fetch --tags --progress https://github.com/Omkar29041993/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0d88b3b9b8d5a49829dc4adc99c341a5f0e34b38 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0d88b3b9b8d5a49829dc4adc99c341a5f0e34b38
+Commit message: "moved jenkinfile"
+First time build. Skipping changelog.

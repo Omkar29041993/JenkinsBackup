@@ -1,0 +1,207 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
+      <stagesUUID>fbe6ea20-acc5-4978-bbc9-e77b51cdd9e0</stagesUUID>
+      <stagesList>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
+          <stages>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Non-Parallel Stage</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>echo</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>message</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">This stage will be executed first.</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Parallel Stage</name>
+              <branches/>
+              <failFast>true</failFast>
+              <parallel>
+                <stages>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Branch A</name>
+                    <agent>
+                      <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                        <value class="string">for-branch-a</value>
+                      </variables>
+                      <agentType>
+                        <key>label</key>
+                      </agentType>
+                    </agent>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>echo</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>message</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">On Branch A</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <name>Branch B</name>
+                    <agent>
+                      <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                        <value class="string">for-branch-b</value>
+                      </variables>
+                      <agentType>
+                        <key>label</key>
+                      </agentType>
+                    </agent>
+                    <branches>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>echo</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>message</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">On Branch B</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </steps>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    </branches>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                </stages>
+                <uuid>8b5ef64e-f404-42b4-a0d8-ed85568116e0</uuid>
+              </parallel>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+          </stages>
+          <uuid>fbe6ea20-acc5-4978-bbc9-e77b51cdd9e0</uuid>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
+      </stagesList>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>178</queueId>
+  <timestamp>1528384964374</timestamp>
+  <startTime>1528384964377</startTime>
+  <result>ABORTED</result>
+  <duration>41775</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&apos;Non-Parallel Stage&apos;) {
+            steps {
+                echo &apos;This stage will be executed first.&apos;
+            }
+        }
+        stage(&apos;Parallel Stage&apos;) {
+            failFast true
+            parallel {
+                stage(&apos;Branch A&apos;) {
+                    agent {
+                        label &quot;for-branch-a&quot;
+                    }
+                    steps {
+                        echo &quot;On Branch A&quot;
+                    }
+                }
+                stage(&apos;Branch B&apos;) {
+                    agent {
+                        label &quot;for-branch-b&quot;
+                    }
+                    steps {
+                        echo &quot;On Branch B&quot;
+                    }
+                }
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>188542751</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>204360987</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>682366418</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>23090940</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>77433733</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>35</iota>
+    <head>1:35</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

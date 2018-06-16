@@ -1,0 +1,17 @@
+[nodejs-pipeline] Running shell script
++ docker pull node:6-alpine
+6-alpine: Pulling from library/node
+81033e7c1d6a: Pulling fs layer
+a4e47121b945: Pulling fs layer
+05a05c4ca1a2: Pulling fs layer
+05a05c4ca1a2: Verifying Checksum
+05a05c4ca1a2: Download complete
+81033e7c1d6a: Verifying Checksum
+81033e7c1d6a: Download complete
+81033e7c1d6a: Pull complete
+a4e47121b945: Verifying Checksum
+a4e47121b945: Download complete
+a4e47121b945: Pull complete
+05a05c4ca1a2: Pull complete
+Digest: sha256:d2c32ad1e881faa3116b98bd82f0789f7b62f99bc45f8d3044c5006671fe7eea
+Status: Downloaded newer image for node:6-alpine

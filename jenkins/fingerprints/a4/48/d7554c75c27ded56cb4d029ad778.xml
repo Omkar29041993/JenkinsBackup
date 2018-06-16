@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-07 06:28:41.519 UTC</timestamp>
+  <original>
+    <name>python-pipeline</name>
+    <number>1</number>
+  </original>
+  <md5sum>a448d7554c75c27ded56cb4d029ad778</md5sum>
+  <fileName>Docker image sha256:a448d7554c75c27ded56cb4d029ad7787faca02dd0daa587704934a5bed67120</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528352921541</timestamp>
+      <imageId>sha256:a448d7554c75c27ded56cb4d029ad7787faca02dd0daa587704934a5bed67120</imageId>
+      <usages>
+        <entry>
+          <string>python-pipeline</string>
+          <ranges>1</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>ae47d9bd2ff8</host>
+          <containerId>ae47d9bd2ff86d3702757a521a65632999110d7426fa607ed97a587db9dd5a26</containerId>
+          <containerName>/tender_clarke</containerName>
+          <created>1528352921000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

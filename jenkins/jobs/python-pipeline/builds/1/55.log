@@ -1,0 +1,41 @@
+[python-pipeline] Running shell script
++ pyinstaller --onefile sources/add2vals.py
+37 INFO: PyInstaller: 3.3
+37 INFO: Python: 2.7.6
+37 INFO: Platform: Linux-4.4.0-1060-aws-x86_64-with-Ubuntu-14.04-trusty
+37 INFO: wrote /var/lib/jenkins/workspace/python-pipeline/add2vals.spec
+40 INFO: UPX is not available.
+41 INFO: Extending PYTHONPATH with paths
+['/var/lib/jenkins/workspace/python-pipeline/sources',
+ '/var/lib/jenkins/workspace/python-pipeline']
+41 INFO: checking Analysis
+41 INFO: Building Analysis because out00-Analysis.toc is non existent
+42 INFO: Initializing module dependency graph...
+43 INFO: Initializing module graph hooks...
+75 INFO: running Analysis out00-Analysis.toc
+87 INFO: Caching module hooks...
+89 INFO: Analyzing /var/lib/jenkins/workspace/python-pipeline/sources/add2vals.py
+93 INFO: Loading module hooks...
+93 INFO: Loading module hook "hook-encodings.py"...
+1443 INFO: Looking for ctypes DLLs
+1443 INFO: Analyzing run-time hooks ...
+1446 INFO: Looking for dynamic libraries
+1539 INFO: Looking for eggs
+1539 INFO: Python library not in binary dependencies. Doing additional searching...
+1561 INFO: Using Python library /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0
+1562 INFO: Warnings written to /var/lib/jenkins/workspace/python-pipeline/build/add2vals/warnadd2vals.txt
+1571 INFO: Graph cross-reference written to /var/lib/jenkins/workspace/python-pipeline/build/add2vals/xref-add2vals.html
+1596 INFO: checking PYZ
+1596 INFO: Building PYZ because out00-PYZ.toc is non existent
+1596 INFO: Building PYZ (ZlibArchive) /var/lib/jenkins/workspace/python-pipeline/build/add2vals/out00-PYZ.pyz
+1739 INFO: Building PYZ (ZlibArchive) /var/lib/jenkins/workspace/python-pipeline/build/add2vals/out00-PYZ.pyz completed successfully.
+1760 INFO: checking PKG
+1760 INFO: Building PKG because out00-PKG.toc is non existent
+1760 INFO: Building PKG (CArchive) out00-PKG.pkg
+3380 INFO: Building PKG (CArchive) out00-PKG.pkg completed successfully.
+3384 INFO: Bootloader /usr/local/lib/python2.7/dist-packages/PyInstaller/bootloader/Linux-64bit/run
+3384 INFO: checking EXE
+3384 INFO: Building EXE because out00-EXE.toc is non existent
+3384 INFO: Building EXE from out00-EXE.toc
+3385 INFO: Appending archive to ELF section in EXE /var/lib/jenkins/workspace/python-pipeline/dist/add2vals
+3393 INFO: Building EXE from out00-EXE.toc completed successfully.

@@ -1,0 +1,3 @@
+[SimpleDemo] Running shell script
++ npm --version
+/var/lib/jenkins/workspace/SimpleDemo@tmp/durable-a8cf8000/script.sh: 2: /var/lib/jenkins/workspace/SimpleDemo@tmp/durable-a8cf8000/script.sh: npm: not found

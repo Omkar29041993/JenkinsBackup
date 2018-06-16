@@ -1,0 +1,4 @@
+[nodejs-pipeline] Running shell script
++ docker inspect -f . node:6-alpine
+
+Error: No such object: node:6-alpine

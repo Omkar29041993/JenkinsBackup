@@ -1,0 +1,4 @@
+[SimpleDemo] Running shell script
++ docker inspect -f . openjdk:8-jre
+
+Error: No such object: openjdk:8-jre

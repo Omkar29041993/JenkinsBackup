@@ -1,0 +1,14 @@
+[SimpleDemo] Running shell script
++ sudo apt-get update
+Hit:1 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Hit:5 http://ppa.launchpad.net/ansible/ansible/ubuntu xenial InRelease
+Ign:6 https://pkg.jenkins.io/debian-stable binary/ InRelease
+Hit:7 https://pkg.jenkins.io/debian-stable binary/ Release
+Get:8 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [785 kB]
+Get:9 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [632 kB]
+Hit:10 https://download.docker.com/linux/ubuntu xenial InRelease
+Sending interrupt signal to process
+Terminated

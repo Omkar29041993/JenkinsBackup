@@ -1,0 +1,58 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-06 11:22:48.566 UTC</timestamp>
+  <original>
+    <name>SimpleDemo</name>
+    <number>9</number>
+  </original>
+  <md5sum>0d90898532210246893d448740ee6ad8</md5sum>
+  <fileName>Docker image sha256:0d90898532210246893d448740ee6ad83ad351f71dc188d4a5705d193cb3a580</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528284168580</timestamp>
+      <imageId>sha256:0d90898532210246893d448740ee6ad83ad351f71dc188d4a5705d193cb3a580</imageId>
+      <usages>
+        <entry>
+          <string>SimpleDemo</string>
+          <ranges>10-11</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>70e52ffe96ca</host>
+          <containerId>70e52ffe96caa63c0f2020b6d403a35bed45ed882798a37ed6ca1d119b661360</containerId>
+          <containerName>/eloquent_knuth</containerName>
+          <created>1528284167000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f65b770a7570</host>
+          <containerId>f65b770a7570622b86e4e7665018483cb4c7851eb37fea74be53edc146ce9e3f</containerId>
+          <containerName>/brave_pasteur</containerName>
+          <created>1528284188000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528284168580</timestamp>
+      <imageId>sha256:0d90898532210246893d448740ee6ad83ad351f71dc188d4a5705d193cb3a580</imageId>
+      <usages>
+        <entry>
+          <string>SimpleDemo</string>
+          <ranges>9</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>4c3f7691afa0</host>
+          <containerId>4c3f7691afa03546c8db21eff1648a3df636b86adbd32e67df9af976ea604935</containerId>
+          <containerName>/relaxed_austin</containerName>
+          <created>1528284167000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

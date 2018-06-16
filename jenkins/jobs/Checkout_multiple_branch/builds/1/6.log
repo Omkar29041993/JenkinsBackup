@@ -1,0 +1,18 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Omkar29041993/Docker-.git
+ > git init /var/lib/jenkins/workspace/Checkout_multiple_branch # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/Docker-.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Omkar29041993/Docker-.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Omkar29041993/Docker-.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Omkar29041993/Docker-.git # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/Docker-.git
+ > git fetch --tags --progress https://github.com/Omkar29041993/Docker-.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fd20867b90f7e463f2ac352733d87a84e928afb3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fd20867b90f7e463f2ac352733d87a84e928afb3
+Commit message: "Updated"
+First time build. Skipping changelog.

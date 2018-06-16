@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-07 05:13:32.272 UTC</timestamp>
+  <original>
+    <name>maven-java</name>
+    <number>4</number>
+  </original>
+  <md5sum>5435658a63acb615bd9ab5d9249be37d</md5sum>
+  <fileName>Docker image sha256:5435658a63acb615bd9ab5d9249be37de8a1b4e996a6996e26a5127e2a14e79c</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528348412287</timestamp>
+      <imageId>sha256:5435658a63acb615bd9ab5d9249be37de8a1b4e996a6996e26a5127e2a14e79c</imageId>
+      <usages>
+        <entry>
+          <string>maven-java</string>
+          <ranges>4-6</ranges>
+        </entry>
+        <entry>
+          <string>SimpleDemo</string>
+          <ranges>40-42</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>cf3297283c79</host>
+          <containerId>cf3297283c79353f65ea767f4edeb92e963899d0d812ea05491d9e462da49116</containerId>
+          <containerName>/sad_franklin</containerName>
+          <created>1528348411000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>04596dc82bf1</host>
+          <containerId>04596dc82bf1ef65833a60621f73854b7d6e54c24fbba20d55623d29afaa2623</containerId>
+          <containerName>/compassionate_cori</containerName>
+          <created>1528348850000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>9cd110a87cae</host>
+          <containerId>9cd110a87cae917ee478937f0576421cb4913f461d28a9686174dee162a9310a</containerId>
+          <containerName>/zen_elion</containerName>
+          <created>1528350068000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>1c636ea66368</host>
+          <containerId>1c636ea66368ee547b8a87c5f833de12ba776b7033bd3864c88078883a90f323</containerId>
+          <containerName>/hardcore_varahamihira</containerName>
+          <created>1528382771000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2bedcf2f0cee</host>
+          <containerId>2bedcf2f0cee114644f7319fa903de3a6479cc7875a24a281cd91ede77666b23</containerId>
+          <containerName>/blissful_newton</containerName>
+          <created>1528382837000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>9569b7cabc3c</host>
+          <containerId>9569b7cabc3c637badf703cec5decb3114d9f6ed90ad0b6e3967d2840eca7f36</containerId>
+          <containerName>/optimistic_snyder</containerName>
+          <created>1528383056000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

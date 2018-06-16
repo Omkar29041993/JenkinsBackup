@@ -1,0 +1,59 @@
+Started by user [8mha:////4EDQYKYN7zIjnJGGZ4i4Im0C0Zj/XxgSwZ4tBg4waUFfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/Maven_Package
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Omkar29041993/MavenPackage # timeout=10
+Fetching upstream changes from https://github.com/Omkar29041993/MavenPackage
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/Omkar29041993/MavenPackage +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b86cce5e4cc75c32b96201555dd380f9e4986a83 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b86cce5e4cc75c32b96201555dd380f9e4986a83
+Commit message: "Modified"
+ > git rev-list --no-walk 18c7e69b189d40a460218d2db27cd77f99b7ffa4 # timeout=10
+[Maven_Package] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JankinsOnEC2Maven 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ JankinsOnEC2Maven ---
+[INFO] Deleting /var/lib/jenkins/workspace/Maven_Package/target
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ JankinsOnEC2Maven ---
+[8mha:////4OoH6zkgfEzF62ADKpac5zBq5Fmx/tZQvI+Xanc2vwxYAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Maven_Package/src/main/resources
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ JankinsOnEC2Maven ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4OoH6zkgfEzF62ADKpac5zBq5Fmx/tZQvI+Xanc2vwxYAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Maven_Package/target/classes
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ JankinsOnEC2Maven ---
+[8mha:////4OoH6zkgfEzF62ADKpac5zBq5Fmx/tZQvI+Xanc2vwxYAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Maven_Package/src/test/resources
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ JankinsOnEC2Maven ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ JankinsOnEC2Maven ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ JankinsOnEC2Maven ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Maven_Package/target/JankinsOnEC2Maven-1.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4GflDijby6aOICu8g8qe/7eGl258wZpENVTZByWrmYj3AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ JankinsOnEC2Maven ---
+[INFO] Installing /var/lib/jenkins/workspace/Maven_Package/target/JankinsOnEC2Maven-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/bogotobogo/JankinsOnEC2Maven/1.0-SNAPSHOT/JankinsOnEC2Maven-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/Maven_Package/pom.xml to /var/lib/jenkins/.m2/repository/com/bogotobogo/JankinsOnEC2Maven/1.0-SNAPSHOT/JankinsOnEC2Maven-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.068 s
+[INFO] Finished at: 2018-05-27T07:26:33+00:00
+[INFO] Final Memory: 13M/32M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

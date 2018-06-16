@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>23</queueId>
+  <timestamp>1527340578719</timestamp>
+  <startTime>1527340578722</startTime>
+  <result>FAILURE</result>
+  <duration>521</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node()
+{
+    stage &quot;Checkout branch Zycus1&quot;
+        dir(&apos;Zycys1&apos;) {
+            git url: &apos;https://github.com/Omkar29041993/Zycus1.git&apos;
+        }
+    stage &quot;Checkout branch Zycus2&quot;
+        dir(&apos;Zycus2&apos;) {
+            git url: &apos;https://github.com/Omkar29041993/Zycus2.git&apos;
+        }
+        
+
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>75605396</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>4114272</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>155295518</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>23158004</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>9639841</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>13</iota>
+    <head>1:13</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

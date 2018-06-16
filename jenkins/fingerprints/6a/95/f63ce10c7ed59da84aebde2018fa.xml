@@ -1,0 +1,81 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-06-07 05:56:43.706 UTC</timestamp>
+  <original>
+    <name>nodejs-pipeline</name>
+    <number>3</number>
+  </original>
+  <md5sum>6a95f63ce10c7ed59da84aebde2018fa</md5sum>
+  <fileName>Docker image sha256:6a95f63ce10c7ed59da84aebde2018fa635e23efe2b9a5adf2996a446a1a0fb0</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1528351003710</timestamp>
+      <imageId>sha256:6a95f63ce10c7ed59da84aebde2018fa635e23efe2b9a5adf2996a446a1a0fb0</imageId>
+      <usages>
+        <entry>
+          <string>nodejs-pipeline</string>
+          <ranges>3-7,13,15-16</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>714d27e4f1b2</host>
+          <containerId>714d27e4f1b23a62a040ceb2d28f4c5b63715d0a88dfba3df6b76f07b109d755</containerId>
+          <containerName>/vigilant_joliot</containerName>
+          <created>1528351003000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>b2b829c47e14</host>
+          <containerId>b2b829c47e14d85f7d93f9266f999f5490410b1aee63f10e0ecde6cec7dc7155</containerId>
+          <containerName>/festive_bhaskara</containerName>
+          <created>1528351732000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>95d7a0d9900f</host>
+          <containerId>95d7a0d9900f900fc81785cd6fd0446988145b97e51b93127285541b6ce82449</containerId>
+          <containerName>/flamboyant_swartz</containerName>
+          <created>1528360899000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>c75e1dbc74e6</host>
+          <containerId>c75e1dbc74e60e41b91afa65ba04f0711ec94502e9826e68efe42698c32ace4d</containerId>
+          <containerName>/elated_bhabha</containerName>
+          <created>1528361351000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>677fb8eefd49</host>
+          <containerId>677fb8eefd49552d33a3e07f301f4f2902077f4ca5f9170a3b717acc8711667f</containerId>
+          <containerName>/reverent_haibt</containerName>
+          <created>1528362320000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>4bb52b3b941c</host>
+          <containerId>4bb52b3b941c4e6f31a0099e8c649c6e891b046d4e3dd570d002528ecd3c8808</containerId>
+          <containerName>/xenodochial_hopper</containerName>
+          <created>1528363571000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>b6f395ab6936</host>
+          <containerId>b6f395ab69366769e09d44074c099d0e058abf030e58170ef704d7ce868b596b</containerId>
+          <containerName>/competent_bartik</containerName>
+          <created>1528364110000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>a94c802856f5</host>
+          <containerId>a94c802856f5bc0fc204a333e6fd7777f004b1c1319e2d3c086b609ab2ff3e73</containerId>
+          <containerName>/quirky_aryabhata</containerName>
+          <created>1528364873000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
