@@ -1,0 +1,6 @@
+Started by user [8mha:////4EDQYKYN7zIjnJGGZ4i4Im0C0Zj/XxgSwZ4tBg4waUFfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building on master in workspace /var/lib/jenkins/workspace/New-Job
+[New-Job] $ /bin/sh -xe /tmp/jenkins4374627908812392806.sh
++ echo Hello Omkar
+Hello Omkar
+Finished: SUCCESS
